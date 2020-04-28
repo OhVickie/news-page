@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background: #fff;
+  /* position: relative; */
+  padding: 1rem;
+}
+
+.webpage_title{
+  font-size: 4rem;
+  color: #2D2A26;
+  width: 23%;
+  margin:  auto; 
+  border-bottom: 3px solid #F5EA60;
+}
+
+.home-content{
+  text-align: left;
+  width: 50%;
+  margin: 7rem 0rem;
+  /* 
+  position: absolute;
+  top: 14rem;
+  right: 30rem; */
+}
+
+.title-part{
+  display: block;
+  margin-bottom: 1.7rem;
+  color: #2D2A26;
+  font-size: 4rem;
+  font-weight: 320;
+  line-height: 1.35;
+}
+
+.title-part--1{
+
+}
+
+.title-message{
+  margin-bottom: 1.7rem;
+}
+
+.more-link{
+  text-decoration: none;
+}
+
+.yellow-div{
+  background: #ebbe25;
+  width: 100%;
+  position: relative;
+  padding-left: 4rem;
+}
+
+.learn-more-div{
+  background: #FFF2A0;
+  position: absolute;
+  top: -8rem;
+  right: 7rem;
+  height: 16rem;
+  width: 30%;
+}
+
+.aesthetic{
+  text-align: left;
+  font-size: 6rem;
+  font-weight: bold;
+  color: #FFF;
+  padding-top: 4rem;
+  margin: 4rem auto 0;
+}
+
+.aesthetic span{
+  color:#6f430a;
+}
+
+.yellow-div p{
+  width: 50%;
+  color:#6f430a;
+  text-align: left;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.1;
+  /* margin:0 auto;  */
+}
+
+.banana-div{
+  background-image: url(img/banana-4415864_1920.jpg);
+  /* background-image: url(img/bee-2984342_1920.jpg); */
+  background-size: cover;
+  background-position: center;
+  /* background:  #F5EA60; */
+  width: 100%;
+  height: 40rem;
+  text-align: center; 
+  padding: 4rem;
+  margin-top: -3rem;
+}
+
+.newscard {
+  background-image: url(img/banana-4415864_1920.jpg);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  position: absolute;
+  
+}
+
+.home{
+
+}
+
+.more-link {
+  color: #FF8E6C;
+}
