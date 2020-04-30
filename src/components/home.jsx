@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Newscard from './newscard';
+import banana from '../img/banana-4415864_1920.jpg';
+import video from '../img/video.mp4';
 
 function Home() {
   return (
@@ -28,11 +30,12 @@ function Home() {
         </div>
         
         {/*This part will be a grid containing newscards*/}
-        <div>
+        <div className="picture-div">
             <h1>What We Do</h1>
-            <Newscard />
-            <Newscard />
-            <Newscard />
+            <img src={banana}></img>
+            <video id="background-video" loop autoPlay>
+                <source src={video} type="video/mp4"></source>
+            </video>
         </div>
       
     </div>

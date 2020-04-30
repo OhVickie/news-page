@@ -104,6 +104,12 @@
   margin-top: -3rem;
 }
 
+.picture-div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
 .newscard {
   background-image: url(img/banana-4415864_1920.jpg);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
