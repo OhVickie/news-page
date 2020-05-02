@@ -32,10 +32,18 @@ function Home() {
         {/*This part will be a grid containing newscards*/}
         <div className="picture-div">
             <h1>What We Do</h1>
-            <img src={banana}></img>
-            <video id="background-video" loop autoPlay>
+            <div className="picture-grid">
+                <div className="item item--1"><img src={banana}></img></div>
+                <div className="item item--2"><img src={banana}></img></div>
+                <div className="item item--3"><img src={banana}></img></div>
+                <div className="item item--4"><img src={banana}></img></div>
+                <div className="item item--5"><img src={banana}></img></div>
+                <div className="item item--6"><img src={banana}></img></div>
+            </div>
+            
+            {/*<video id="background-video" loop autoPlay>
                 <source src={video} type="video/mp4"></source>
-            </video>
+            </video>*/}
         </div>
       
     </div>

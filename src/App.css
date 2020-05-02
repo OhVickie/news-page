@@ -105,9 +105,19 @@
 }
 
 .picture-div{
+  width: 100%;
+}
+
+.picture-grid{
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1rem;;
+}
+
+.item{
+  width: 20%;
 }
 
 .newscard {
