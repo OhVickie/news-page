@@ -121,10 +121,13 @@
 }
 
 .newscard {
-  background-image: url(img/banana-4415864_1920.jpg);
+  background: #FFF2A0 !important;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-  position: absolute;
-  
+  width: 20rem;
+}
+
+.newscard:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .home{

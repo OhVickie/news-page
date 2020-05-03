@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Newscard from './newscard';
 import banana from '../img/banana-4415864_1920.jpg';
 import video from '../img/video.mp4';
+import img1 from '../img/bee-2984342_1920.jpg';
 
 function Home() {
   return (
@@ -44,6 +45,31 @@ function Home() {
             {/*<video id="background-video" loop autoPlay>
                 <source src={video} type="video/mp4"></source>
             </video>*/}
+        </div>
+        <div className="container-fluid d-flex justify-content-center">
+            <div className="row">
+                <div className="col-md-4">
+                    <Newscard 
+                        cardImage={img1}
+                        cardTitle="Yuri"
+                        cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
+                    />
+                </div>
+                <div className="col-md-4">
+                    <Newscard 
+                        cardImage={img1}
+                        cardTitle="Yuri"
+                        cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
+                    />
+                </div>
+                <div className="col-md-4">
+                    <Newscard 
+                        cardImage={img1}
+                        cardTitle="Yuri"
+                        cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
+                    />
+                </div>
+            </div>
         </div>
       
     </div>
