@@ -11,7 +11,7 @@ function Newscard(props) {
       <div className="card-body text-dark">
         <h4 className="card-title">{props.cardTitle}</h4>
         <p className="card-text text-secondary">{props.cardMessage}</p>
-        <a href="#" className="btn btn-outline-success btn--white btn--animated">Hey</a>
+        <a href="#" className="btn btn-outline-success btn--white btn--animated">{props.btnName}</a>
       </div>
     </div>
   );

@@ -31,46 +31,54 @@ function Home() {
         </div>
         
         {/*This part will be a grid containing newscards*/}
-        <div className="picture-div">
-            <h1>What We Do</h1>
-            <div className="picture-grid">
-                <div className="item item--1"><img src={banana}></img></div>
-                <div className="item item--2"><img src={banana}></img></div>
-                <div className="item item--3"><img src={banana}></img></div>
-                <div className="item item--4"><img src={banana}></img></div>
-                <div className="item item--5"><img src={banana}></img></div>
-                <div className="item item--6"><img src={banana}></img></div>
+        <div className="picture__div">
+            <h1 className="picture__div--header">What We Do</h1>
+            <div className="picture__grid">
+                <div className="item item--1"><img src={banana} className="grid-img"></img></div>
+                <div className="item item--2"><img src={banana} className="grid-img"></img></div>
+                <div className="item item--3"><img src={banana} className="grid-img"></img></div>
+                <div className="item item--4"><img src={banana} className="grid-img"></img></div>
+                <div className="item item--5"><img src={banana} className="grid-img"></img></div>
+                <div className="item item--6"><img src={banana} className="grid-img"></img></div>
             </div>
             
             {/*<video id="background-video" loop autoPlay>
                 <source src={video} type="video/mp4"></source>
             </video>*/}
         </div>
-        <div className="container-fluid d-flex justify-content-center">
-            <div className="row">
-                <div className="col-md-4">
-                    <Newscard 
-                        cardImage={img1}
-                        cardTitle="Yuri"
-                        cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
-                    />
-                </div>
-                <div className="col-md-4">
-                    <Newscard 
-                        cardImage={img1}
-                        cardTitle="Yuri"
-                        cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
-                    />
-                </div>
-                <div className="col-md-4">
-                    <Newscard 
-                        cardImage={img1}
-                        cardTitle="Yuri"
-                        cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
-                    />
+        <div className="newscard-div">
+            <h4 className="newscard-div-title">View Testimonials</h4>
+            <div className="container-fluid d-flex justify-content-center">
+                
+                <div className="row">
+                    <div className="col-md-4">
+                        <Newscard 
+                            cardImage={img1}
+                            cardTitle="Yuri"
+                            cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
+                            btnName="View"
+                        />
+                    </div>
+                    <div className="col-md-4">
+                        <Newscard 
+                            cardImage={img1}
+                            cardTitle="Yuri"
+                            cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
+                            btnName="View"
+                        />
+                    </div>
+                    <div className="col-md-4">
+                        <Newscard 
+                            cardImage={img1}
+                            cardTitle="Yuri"
+                            cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
+                            btnName="View"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
+       
       
     </div>
   );
