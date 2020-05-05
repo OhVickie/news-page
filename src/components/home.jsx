@@ -4,6 +4,11 @@ import Newscard from './newscard';
 import banana from '../img/banana-4415864_1920.jpg';
 import video from '../img/video.mp4';
 import img1 from '../img/bee-2984342_1920.jpg';
+import img2 from '../img/dark-fern-fern-leaves-1216345.jpg';
+import img3 from '../img/sliced-lime.jpg';
+import img4 from '../img/lighted-flower-bud.jpg';
+import img5 from '../img/green-peas.jpg';
+import img6 from '../img/green-leafy-plant-1092197.jpg';
 
 function Home() {
   return (
@@ -34,12 +39,11 @@ function Home() {
         <div className="picture__div">
             <h1 className="picture__div--header">What We Do</h1>
             <div className="picture__grid">
-                <div className="item item--1"><img src={banana} className="grid-img"></img></div>
-                <div className="item item--2"><img src={banana} className="grid-img"></img></div>
-                <div className="item item--3"><img src={banana} className="grid-img"></img></div>
-                <div className="item item--4"><img src={banana} className="grid-img"></img></div>
-                <div className="item item--5"><img src={banana} className="grid-img"></img></div>
-                <div className="item item--6"><img src={banana} className="grid-img"></img></div>
+                <div className="item item--1"><img src={img5} className="grid-img"></img></div>
+                <div className="item item--2"><img src={img2} className="grid-img"></img></div>
+                <div className="item item--3"><img src={img3} className="grid-img"></img></div>
+                <div className="item item--4"><img src={img6} className="grid-img"></img></div>
+                
             </div>
             
             {/*<video id="background-video" loop autoPlay>
