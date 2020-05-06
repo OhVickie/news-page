@@ -13,7 +13,7 @@
   padding: 1rem;
 }
 
-.webpage_title{
+.webpage__title{
   font-size: 4rem;
   color: #2D2A26;
   width: 23%;
@@ -21,7 +21,7 @@
   border-bottom: 3px solid #F5EA60;
 }
 
-.home-content{
+.home__content{
   text-align: left;
   width: 50%;
   margin: 7rem 0rem;
@@ -31,7 +31,7 @@
   right: 30rem; */
 }
 
-.title-part{
+.title__part{
   display: block;
   margin-bottom: 1.7rem;
   color: #2D2A26;
@@ -40,11 +40,11 @@
   line-height: 1.35;
 }
 
-.title-part--1{
+.title__part--1{
 
 }
 
-.title-message{
+.title__message{
   margin-bottom: 1.7rem;
 }
 
@@ -52,14 +52,14 @@
   text-decoration: none;
 }
 
-.yellow-div{
+.yellow__div{
   background: #ebbe25;
   width: 100%;
   position: relative;
   padding-left: 4rem;
 }
 
-.learn-more-div{
+.learn-more__div{
   background: #FFF2A0;
   position: absolute;
   top: -8rem;
@@ -81,7 +81,7 @@
   color:#6f430a;
 }
 
-.yellow-div p{
+.yellow__div p{
   width: 50%;
   color:#6f430a;
   text-align: left;
@@ -91,7 +91,7 @@
   /* margin:0 auto;  */
 }
 
-.banana-div{
+.banana__div{
   background-image: url(img/banana-4415864_1920.jpg);
   /* background-image: url(img/bee-2984342_1920.jpg); */
   background-size: cover;
@@ -110,13 +110,14 @@
 }
 
 .picture__div--header{
+  margin-bottom: 4.5rem;
 }
 
 .picture__grid{
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 20rem);
+  grid-template-rows: repeat(2, 20rem);
   grid-gap: 2rem;
 }
 
@@ -126,11 +127,11 @@
   object-fit: cover;
 }
 
-.newscard-div{
+.newscard__div{
   margin-top: 4rem;
 }
 
-.newscard-div-title{
+.newscard__div--title{
 
 }
 
