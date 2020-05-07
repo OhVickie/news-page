@@ -33,8 +33,7 @@ function Home() {
             <h4 className="aesthetic">Aes.<span>the.</span>tic</h4>
             <p>concerned with beauty or the appreciation of beauty.</p>
         </div>
-        <div className="banana__div">    
-        </div>
+        <div className="banana__div"></div>
         
         {/*This part will be a grid containing newscards*/}
         <div className="picture__div">
@@ -51,7 +50,7 @@ function Home() {
                 <source src={video} type="video/mp4"></source>
             </video>*/}
         </div>
-        <div className="newscard__div">
+        {/*<div className="newscard__div">
             <h4 className="newscard__div--title">View Testimonials</h4>
             <div className="container-fluid d-flex justify-content-center">
                 
@@ -82,6 +81,10 @@ function Home() {
                     </div>
                 </div>
             </div>
+        </div>*/}
+
+        <div className="contact__div">
+            <h4>Let's Connect</h4>
         </div>
        
       
