@@ -85,6 +85,10 @@ function Home() {
 
         <div className="contact__div">
             <h4>Let's Connect</h4>
+            <Form 
+                formImage = {img1}
+                formTitle = "Contact"
+            />
         </div>
        
       
