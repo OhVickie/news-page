@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Newscard from './newscard';
+import Form from './form';
 import banana from '../img/banana-4415864_1920.jpg';
 import video from '../img/video.mp4';
 import img1 from '../img/bee-2984342_1920.jpg';
