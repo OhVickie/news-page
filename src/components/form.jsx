@@ -11,12 +11,11 @@ function handleChange(event){
 }
 
   return (
-    <div className="card text-center newscard">
-      <div className="overflow">
-        <img src={props.formImage} className="formImage"></img>
+    <div className="text-center">
+      <div className="">
         <h4 className="card-title">{props.formTitle}</h4>
       </div>
-      <div className="card-body text-dark">
+      <div className="">
         <input
             onChange={handleChange}
             type="text"
