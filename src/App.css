@@ -179,7 +179,7 @@
   line-height: 1.1;
 }
 
-input {
+.form__input {
   border: 1px solid rgba(252, 252, 252, 0.4);
   background-color: rgba(252, 252, 252, 0.2);
   width: 250px;
@@ -194,7 +194,7 @@ input {
   font-weight: 300;
 }
 
-button {
+.submit__btn {
   appearance: none;
   outline: 0;
   background-color: white;

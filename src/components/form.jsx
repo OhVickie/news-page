@@ -16,12 +16,12 @@ function handleChange(event){
         <h4 className="card-title">{props.formTitle}</h4>
       </div>
       <div className="">
-        <input
+        <input className="form__input"
             onChange={handleChange}
             type="text"
             placeholder="FirstName LastName"
         ></input>
-        <button>Submit</button>
+        <button className="submit__btn">Submit</button>
       </div>
     </div>
   );
