@@ -110,14 +110,7 @@ function Home() {
                             btnName="View"
                         />
                     </div>
-                    <div className="col-md-4">
-                        <Newscard 
-                            cardImage={img1}
-                            cardTitle="Yuri"
-                            cardMessage="I am brilliant, creative and passionate about making stunning and intuitive user interfaces."
-                            btnName="View"
-                        />
-                    </div>
+                    
                 </div>
             </div>
         </div>*/}
