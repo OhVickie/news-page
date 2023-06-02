@@ -39,13 +39,51 @@ function Home() {
         {/*This part will be a grid containing newscards*/}
         <div className="picture__div">
             <h1 className="picture__div--header">What We Do</h1>
-            <div className="picture__grid">
+            {/* <div className="picture__grid">
                 <div className="item item--1"><img src={img5} className="grid-img"></img></div>
                 <div className="item item--2"><img src={img2} className="grid-img"></img></div>
                 <div className="item item--3"><img src={img6} className="grid-img"></img></div>
                 <div className="item item--4"><img src={img3} className="grid-img"></img></div>
                 
-            </div>
+            </div> */}
+              <div className="picture__grid">
+                  <Newscard
+                      cardImage={img5}
+                      cardTitle={"Card"}
+                      cardMessage={"Hi! Keep going"}
+                      btnName="View"
+                  />
+                  <Newscard
+                      cardImage={img6}
+                      cardTitle={"Card 2"}
+                      cardMessage={"Don't be afraid"}
+                      btnName="View" />
+                  <Newscard
+                      cardImage={img6}
+                      cardTitle={"Card 3"}
+                      cardMessage={"You are such a brilliant mind!"}
+                      btnName="View"
+                  />
+                  <Newscard
+                      cardImage={img3}
+                      cardTitle={"Card 4"}
+                      cardMessage={"You can do this and you're already doing amazing"}
+                      btnName="View"
+                  />
+                  <Newscard
+                      cardImage={img5}
+                      cardTitle={"Card 5"}
+                      cardMessage={"Quitting is not an option."}
+                      btnName="View"
+                  />
+                  <Newscard
+                      cardImage={img5}
+                      cardTitle={"Card 6"}
+                      cardMessage={"Think the right thoughts"}
+                      btnName="View"
+                  />
+              </div>
+              
             
             {/*<video id="background-video" loop autoPlay>
                 <source src={video} type="video/mp4"></source>
@@ -84,16 +122,23 @@ function Home() {
             </div>
         </div>*/}
 
+
         <div className="contact__div">
-            <h4>Let's Connect</h4>
+            <div>
+                <h1 className='contact__div--header'>Let's Connect</h1>
+            </div>
+            
+            <div className='contact__div--body'>
             <Form 
                 formTitle = "Contact"
             />
+            </div>
+            
         </div>
        
       
     </div>
-  );
+  ); 
 }
 
 export default Home;
