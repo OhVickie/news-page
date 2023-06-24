@@ -25,7 +25,8 @@ function Form(props) {
   // })
 
   const handleChange = (event) => {
-    alert("Name!");
+    //alert("Name!");
+    setName ();
   }
 
   const submitInfo = () => {
