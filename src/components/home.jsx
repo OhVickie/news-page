@@ -8,15 +8,19 @@ import video from '../img/video.mp4';
 import img1 from '../img/bee-2984342_1920.jpg';
 import img2 from '../img/dark-fern-fern-leaves-1216345.jpg';
 import img3 from '../img/green-leafy-plant-1092197.jpg';
-import img4 from '../img/lighted-flower-bud.jpg';
+import img4 from '../img/lit-flower-bud.jpg';
 import img5 from '../img/green-peas.jpg';
 import img6 from '../img/plant-with-water.jpg';
 import img7 from '../img/sliced-lime.jpg';
+import img8 from '../img/blue-sky-1.jpg';
 
 function Home() {
   return (
     <div className="home">
-        <h4 className="webpage__title">bonkers.</h4>
+        <h4 className="webpage__title">bonkers.</h4> 
+        {/*- MEANING
+        - Going beyond what is normal or conventional in a way that is fun, impressive, exciting, etc. 
+        - Very fond, enthusiastic, or excited*/}
         <div className="home__content">
             <h1 className="title__part">
                 <span className="title__part--1">Hello!</span>
@@ -55,7 +59,7 @@ function Home() {
                       btnName="View"
                   />
                   <Newscard
-                      cardImage={img6}
+                      cardImage={img4}
                       cardTitle={"Card 2"}
                       cardMessage={"Don't be afraid"}
                       btnName="View" />
@@ -78,7 +82,7 @@ function Home() {
                       btnName="View"
                   />
                   <Newscard
-                      cardImage={img5}
+                      cardImage={img4}
                       cardTitle={"Card 6"}
                       cardMessage={"Think the right thoughts"}
                       btnName="View"
@@ -118,19 +122,23 @@ function Home() {
 
 
         <div className="contact__div">
-            <div>
+            {/* <div>
                 <h1 className='contact__div--header'>Let's Connect</h1>
-            </div>
+            </div> */}
+              <div className='contact__div--body'>
+                  <div className='contact__div--body-left'>
+                    <h1>Let's Connect</h1>
+                    <p>Whether you’re looking for company and product updates, complex system integration solutions, 
+                        or simply want a glimpse into the event-driven future, you’ll find it here.</p>
+                  </div>
+                  <div className='contact__div--body-right'>
+                      <Form />
+                </div>
             
-            <div className='contact__div--body'>
-            <Form 
-                formTitle = "Contact"
-            />
             </div>
             
         </div>
        
-       <Trial />
       
     </div>
   ); 
