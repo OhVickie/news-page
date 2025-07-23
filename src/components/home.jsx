@@ -8,11 +8,11 @@ import Trial from './Trial';
 import banana from '../img/banana-4415864_1920.jpg';
 import video from '../img/video.mp4';
 import img1 from '../img/bee-2984342_1920.jpg';
-import img2 from '../img/coloured-umbrellas.jpg';
-import img3 from '../img/green-leafy-plant-1092197.jpg';
+import img2 from '../img/dark green bubble.jpg';
+import img3 from '../img/AI typewriter green.jpg';
 import img4 from '../img/lit-flower-bud.jpg';
-import img5 from '../img/green-peas.jpg';
-import img6 from '../img/plant-with-water.jpg';
+import img5 from '../img/lightbulb blueback.jpg';
+import img6 from '../img/blue yellow headset.jpg';
 import img7 from '../img/sliced-lime.jpg';
 import img8 from '../img/blue-sky-1.jpg';
 
@@ -76,7 +76,7 @@ function Home() {
 
             {/*This part will be a grid containing newscards*/}
             <div className="picture__div">
-                <h1 className="picture__div--header">What We Do</h1>
+                <h1 className="picture__div--header">What's the news?</h1>
                 {/* I need to find a way to dynmically set different images for each of the newscards
                 Maybe I can have an array of images and the images will be selected from there
                 <div className="picture__grid">
