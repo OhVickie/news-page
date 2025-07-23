@@ -8,7 +8,7 @@ import Trial from './Trial';
 import banana from '../img/banana-4415864_1920.jpg';
 import video from '../img/video.mp4';
 import img1 from '../img/bee-2984342_1920.jpg';
-import img2 from '../img/dark-fern-fern-leaves-1216345.jpg';
+import img2 from '../img/coloured-umbrellas.jpg';
 import img3 from '../img/green-leafy-plant-1092197.jpg';
 import img4 from '../img/lit-flower-bud.jpg';
 import img5 from '../img/green-peas.jpg';
@@ -24,7 +24,7 @@ function Home() {
         const getNews = async () => {
             try {
                 const response = await axios.get("https://newsapi.org/v2/everything?q=bitcoin&apiKey=1e3ba36964564dacb9476df7bf795894&pageSize=6")
-                console.log(response.data);
+                console.log("This is the response", response.data);
                 setNewsArticle(response.data.articles)
 
             }
@@ -38,6 +38,14 @@ function Home() {
     }, []
 
     );
+
+    //function to dynmically generate different images for each of the newscards
+    // let cardImg = function setCardImg() {
+    //     let newsImgArr = [img1, img2, img3, img4, img5, img6];
+    //     let randImgIndex = Math.floor(Math.random() * newsImgArr.length);
+
+    //     return (newsImgArr[randImgIndex])
+    // }
 
 
     return (
@@ -69,7 +77,9 @@ function Home() {
             {/*This part will be a grid containing newscards*/}
             <div className="picture__div">
                 <h1 className="picture__div--header">What We Do</h1>
-                {/* <div className="picture__grid">
+                {/* I need to find a way to dynmically set different images for each of the newscards
+                Maybe I can have an array of images and the images will be selected from there
+                <div className="picture__grid">
                 <div className="item item--1"><img src={img5} className="grid-img"></img></div>
                 <div className="item item--2"><img src={img2} className="grid-img"></img></div>
                 <div className="item item--3"><img src={img6} className="grid-img"></img></div>
@@ -79,50 +89,18 @@ function Home() {
                 <div className="picture__grid">
                     {newsArticle.length > 0 ?
                         (newsArticle.map((newsArticle, index) => {
-                            <Newscard
+                            let newsImgArr = [img1, img3, img2, img5, img4, img6];
+                            return (<Newscard
                                 key={index}
-                                cardImage={img5}
+                                cardImage={newsImgArr[index]}
                                 cardTitle={newsArticle.title}
                                 cardMessage={newsArticle.description}
                                 url={newsArticle.url}
                                 btnName="View"
-                            />
+                            />)
+
                         })) : (<p>Loading...</p>)}
-                    <Newscard
-                        cardImage={img5}
-                        cardTitle={"Card"}
-                        cardMessage={"Hi! Keep going"}
-                        btnName="View"
-                    />
-                    <Newscard
-                        cardImage={img4}
-                        cardTitle={"Card 2"}
-                        cardMessage={"Don't be afraid"}
-                        btnName="View" />
-                    <Newscard
-                        cardImage={img6}
-                        cardTitle={"Card 3"}
-                        cardMessage={"You are such a brilliant mind!"}
-                        btnName="View"
-                    />
-                    <Newscard
-                        cardImage={img3}
-                        cardTitle={"Card 4"}
-                        cardMessage={"You can do this and you're already doing amazing"}
-                        btnName="View"
-                    />
-                    <Newscard
-                        cardImage={img5}
-                        cardTitle={"Card 5"}
-                        cardMessage={"Quitting is not an option."}
-                        btnName="View"
-                    />
-                    <Newscard
-                        cardImage={img4}
-                        cardTitle={"Card 6"}
-                        cardMessage={"Think the right thoughts"}
-                        btnName="View"
-                    />
+
                 </div>
 
 
