@@ -1,3 +1,24 @@
+## Bonkers
+A modern, responsive news platform that fetches and displays the latest headlines from a RESTful API.
+Built to showcase full-stack development skills using React, CSS and Axios.
+
+## Highlights
+- Live News Feed – Real-time updates via Axios from a RESTful API
+- Fast Loading – API requests optimized with Axios
+- Clean Code – Modular React components for easy maintenance
+
+## Technologies
+- Frontend: React, React Hooks, CSS, Axios
+- API Integration: Axios, REST API
+- Tools: Git, Postman
+
+## Why I Built This
+This project demonstrates:
+- Fetching and displaying live API data
+- Handling asynchronous requests with Axios
+- Building a responsive, user-friendly UI from scratch
+- Structuring a React project with reusable components
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
