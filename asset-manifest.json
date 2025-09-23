@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/news-page/static/css/main.9e1f0c2e.css",
-    "main.js": "/news-page/static/js/main.e68036d5.js",
-    "static/js/453.a7043cff.chunk.js": "/news-page/static/js/453.a7043cff.chunk.js",
-    "static/media/outdoor-night.jpg": "/news-page/static/media/outdoor-night.fa6a8f1832aa8f737176.jpg",
-    "static/media/white-ceramic-cup-on-saucer-near-gold-colored-analog-watch-1251086.jpg": "/news-page/static/media/white-ceramic-cup-on-saucer-near-gold-colored-analog-watch-1251086.f416df68fec87be22e27.jpg",
-    "static/media/citrus-delicious-food-35063.jpg": "/news-page/static/media/citrus-delicious-food-35063.9b84752a7b7f7bfd0561.jpg",
-    "static/media/office-space.jpg": "/news-page/static/media/office-space.88da2d9eea42c04af136.jpg",
+    "main.css": "/news-page/static/css/main.558bd2c1.css",
+    "main.js": "/news-page/static/js/main.0c19191a.js",
+    "static/media/video.mp4": "/news-page/static/media/video.697d9c042a4dec8716f2.mp4",
+    "static/media/blue yellow headset.jpg": "/news-page/static/media/blue yellow headset.3f16f1a1893a5bc451ab.jpg",
+    "static/media/lit-flower-bud.jpg": "/news-page/static/media/lit-flower-bud.3625f5c2a802990af584.jpg",
+    "static/media/notepad-and-pen.jpg": "/news-page/static/media/notepad-and-pen.3b9f398bf4fe23dccb32.jpg",
     "static/media/lightbulb blueback.jpg": "/news-page/static/media/lightbulb blueback.4aaf340d39684bb128bf.jpg",
+    "static/media/dark green bubble.jpg": "/news-page/static/media/dark green bubble.a89f8944bc5c5e91ccfa.jpg",
+    "static/media/blue-sky-1.jpg": "/news-page/static/media/blue-sky-1.523f706033d755de06ed.jpg",
+    "static/media/sliced-lime.jpg": "/news-page/static/media/sliced-lime.4556510ca3a586f6f1b6.jpg",
+    "static/media/AI typewriter green.jpg": "/news-page/static/media/AI typewriter green.dab4b15ce5ef08ca1cf2.jpg",
+    "static/media/bee-2984342_1920.jpg": "/news-page/static/media/bee-2984342_1920.e20d30ec251e1a48df3e.jpg",
+    "static/media/banana-4415864_1920.jpg": "/news-page/static/media/banana-4415864_1920.401bad22b7f70d46b3ee.jpg",
     "index.html": "/news-page/index.html",
-    "main.9e1f0c2e.css.map": "/news-page/static/css/main.9e1f0c2e.css.map",
-    "main.e68036d5.js.map": "/news-page/static/js/main.e68036d5.js.map",
-    "453.a7043cff.chunk.js.map": "/news-page/static/js/453.a7043cff.chunk.js.map"
+    "main.558bd2c1.css.map": "/news-page/static/css/main.558bd2c1.css.map",
+    "main.0c19191a.js.map": "/news-page/static/js/main.0c19191a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e1f0c2e.css",
-    "static/js/main.e68036d5.js"
+    "static/css/main.558bd2c1.css",
+    "static/js/main.0c19191a.js"
   ]
 }
