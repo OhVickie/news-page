@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/news-page/static/css/main.9e1f0c2e.css",
+    "main.js": "/news-page/static/js/main.e68036d5.js",
+    "static/js/453.a7043cff.chunk.js": "/news-page/static/js/453.a7043cff.chunk.js",
+    "static/media/outdoor-night.jpg": "/news-page/static/media/outdoor-night.fa6a8f1832aa8f737176.jpg",
+    "static/media/white-ceramic-cup-on-saucer-near-gold-colored-analog-watch-1251086.jpg": "/news-page/static/media/white-ceramic-cup-on-saucer-near-gold-colored-analog-watch-1251086.f416df68fec87be22e27.jpg",
+    "static/media/citrus-delicious-food-35063.jpg": "/news-page/static/media/citrus-delicious-food-35063.9b84752a7b7f7bfd0561.jpg",
+    "static/media/office-space.jpg": "/news-page/static/media/office-space.88da2d9eea42c04af136.jpg",
+    "static/media/lightbulb blueback.jpg": "/news-page/static/media/lightbulb blueback.4aaf340d39684bb128bf.jpg",
+    "index.html": "/news-page/index.html",
+    "main.9e1f0c2e.css.map": "/news-page/static/css/main.9e1f0c2e.css.map",
+    "main.e68036d5.js.map": "/news-page/static/js/main.e68036d5.js.map",
+    "453.a7043cff.chunk.js.map": "/news-page/static/js/453.a7043cff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e1f0c2e.css",
+    "static/js/main.e68036d5.js"
+  ]
+}
