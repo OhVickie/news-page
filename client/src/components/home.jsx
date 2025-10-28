@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Newscard from './newscard';
@@ -60,11 +60,11 @@ function Home() {
                     <span className="title__part--1">My name is Victory Esim.</span>
                 </h1>
                 <p className="title__message">
-                    I am one of a kind.
-                    I am brilliant, creative and passionate about making stunning and intuitive user interfaces.
+                    Want to know what's happening right now?
+                    Keep scrolling and discover the stories shaping tomorrow. The next bull, the next crash, the next breakthrough — catch it before it becomes history.
                 </p>
                 <p>
-                    <a href="https://github.com/OhVickie?tab=repositories" className="more-link">Learn More!</a>
+                    <a href="#news__div" className="more-link">Learn More!</a>
                 </p>
             </div>
             <div className="yellow__div">
@@ -75,7 +75,7 @@ function Home() {
             <div className="banana__div"></div>
 
             {/*This part will be a grid containing newscards*/}
-            <div className="picture__div">
+            <div className="picture__div" id="news__div">
                 <h1 className="picture__div--header">What's the news?</h1>
                 {/* I need to find a way to dynmically set different images for each of the newscards
                 Maybe I can have an array of images and the images will be selected from there

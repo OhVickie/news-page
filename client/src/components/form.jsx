@@ -18,10 +18,10 @@ function Form(props) {
 
     emailjs.sendForm('service_m4zs2m3', 'template_hyhern8', form.current, 'i9ttmQCT7Cr1KwGI6')
       .then((result) => {
-          console.log(result.text);
-          
+        console.log(result.text);
+
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
   };
 
@@ -30,7 +30,7 @@ function Form(props) {
   //   setTimeout(() => showPopup("hide"), 3000)
   // }
 
- 
+
 
   const submitInfo = () => {
     alert("Submitted!");
@@ -86,10 +86,10 @@ function Form(props) {
         </div>
 
       </form>
-      
-      
+
+
     </div>
   );
-  }
+}
 
 export default Form;
